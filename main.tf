@@ -5,7 +5,7 @@ provider "aws" {
 
 terraform {
   backend "s3" {
-    bucket = "myterraformbucket"
+    bucket = "chandraterraformbucket"
     key    = "jenkins.tfstate"
     region = "us-east-2"
   }
